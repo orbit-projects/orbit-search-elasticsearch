@@ -14,7 +14,7 @@ dependencies = ["orbit-search>=0.1.0a1,<0.2"]
 classifiers = ["Development Status :: 3 - Alpha", "Programming Language :: Python :: 3", "Typing :: Typed"]
 
 [project.optional-dependencies]
-elasticsearch = ["elasticsearch[async]>=8.17,<9"]
+elasticsearch = ["elasticsearch[async]>=8.17,<10"]
 dev = ["pytest>=8,<10", "pytest-asyncio>=0.24,<2", "ruff>=0.8,<1", "mypy>=1.13,<2"]
 
 [tool.hatch.build.targets.wheel]
